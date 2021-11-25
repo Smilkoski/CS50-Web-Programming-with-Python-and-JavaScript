@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Search</title>
+    <style>
+        /*#logo {*/
+        /*    margin-left: 40%;*/
+        /*}*/
+        .add {
+            padding: 17px;
+            width: 600px;
+            height: 50px;
+            display: block;
+            margin: 1% auto;
+            border-radius: 25px;
+            border: 2px solid #f5f5f8;
+            font-size: 13px;
+            color: gray;
+            background-image: url('./data/698956.png');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 20px 20px;
+            outline: 0;
+        }
+        .add:hover {
+            box-shadow: 0 0 5px rgba(33,33,33,.2);
+        }
+        .btns{
+            margin-left: 40%;
+            font-size: 14px;
+            font-family: arial,sans-serif;
+            color: #202124;
+        }
+        .links{
+            display: inline-block;
+            width: 98%;
+            margin: 1%;
+            font-family: arial,sans-serif;
+        }
+        .links > a{
+            float: right;
+            color: black;
+            padding-top: 10px;
+            padding-right: 20px;
+            font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+            line-height: normal;
+        }
+        #wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 92px;
+            max-height: 290px;
+            height: calc(100% - 560px);
+            flex-shrink: 0;
+            box-sizing: border-box;
+        }
+        #logo {
+            max-height: 92px;
+            position: relative;
+            height: 100%;
+            margin-top: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="links">
+        <a href="image_search.html">Image Search</a>
+        <a href="advanced_search.html">Advanced Search</a>
+    </div>
+    <div id="wrapper">
+        <div id="logo">
+            <img src="./data/googlelogo_color_272x92dp.png">
+        </div>
+    </div>
+    <form action="https://www.google.mk/search">
+        <input class="add" type="text" name="q" >
+        <br>
+        <div class="btns">
+            <input class="btn btn-light" type="submit" value="Google Search">
+            <a class="btn btn-light"  href="https://www.google.com/doodles">I'm feeling lucky!</a>
+        </div>
+    </form>
+</body>
+</html>
