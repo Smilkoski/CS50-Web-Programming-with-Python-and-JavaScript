@@ -1,0 +1,141 @@
+.add {
+    padding: 17px;
+    width: 600px;
+    height: 50px;
+    display: block;
+    margin: 1% auto;
+    border-radius: 25px;
+    border: 2px solid #f5f5f8;
+    font-size: 13px;
+    color: gray;
+    background-image: url('./data/698956.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px;
+    outline: 0;
+}
+
+.add:hover {
+    box-shadow: 0 0 5px rgba(33,33,33,.2);
+}
+
+.btns{
+    margin-left: 40%;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-left: 50%;
+}
+#logo {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    display: inline-block;
+}
+
+#wrapper span{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+    white-space: nowrap;
+}
+
+#first-label{
+    margin-top: 2%;
+    margin-left: 3%;
+    color: #d93025;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+}
+.row {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+span {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+.links{
+    display: inline-block;
+    float: right;
+    width: 98%;
+    font-family: arial,sans-serif;
+}
+.links > a{
+    float: right;
+    color: black;
+    padding-right: 20px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    line-height: normal;
+}
+form {
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.row:first-child p:first-child {
+    font-style: inherit;
+    font-size: 16px;
+    color: #333;
+}
+.row:first-child p:last-child {
+    height: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+}
+
+.row:first-child div {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    height: 30px;
+    vertical-align: middle;
+    width: 40%;
+}
+.data input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    min-width: 167px;
+    height: 30px;
+    width: 40%;
+}
+
+.row p:first-child {
+    width: 15%;
+}
+
+.row p:last-child {
+    margin-left: 15px;
+    width: 30%;
+    font-size: 11px;
+    color: #555;
+}
+
+#submit {
+    margin-left: 45%;
+    width: content-box;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+}
